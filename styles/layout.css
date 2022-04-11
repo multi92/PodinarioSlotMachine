@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.container {
+    background: rgb(228, 11, 11);
+    margin: auto;
+    width: 730px;
+    border: 15px solid black
+}
+
+#header{
+    margin-bottom: 15px;
+    background: rgb(167, 149, 149);
+    border: 3px solid #ececeb;
+    text-align: center;
+}
+
+#footer{
+    margin-top: 15px;
+    height: 200px;
+}
+
+#logo{
+    font-family: 'Casino';
+    font-size: 77px;
+    color: #0f0f0e;
+ 
+}

@@ -1,0 +1,50 @@
+#header {
+    margin-bottom: 15px;
+    background: #f9f9f9;
+    border: 3px solid #e4a203;
+    text-align: center;
+}
+#header {
+    margin-bottom: 15px;
+    background: #f9f9f9;
+    border: 3px solid #075511;
+    text-align: center;
+}
+.container {
+    background: #f9f9f9;
+    margin: auto;
+    width: 730px;
+    border: 15px solid #f1f1f1;
+}
+
+.gradientBackground{
+    background: rgb(235, 234, 224);
+
+}
+
+.gradientCreditBackground{
+    background: rgb(54, 49, 1);
+   
+}
+
+#screenContainer{
+    border-top: 50px solid #d1c9bf;
+    border-left: 50px solid #cfcbc0;
+    border-right: 50px solid #c0baae;
+    border-bottom: 80px solid #6e6d65;
+}
+
+.containerBigger{
+    border-bottom: 100px solid #99978d !important;
+    /* override all previous styling rules for this specific property */
+}
+
+#canvasContainer{
+  
+    outline: 5px solid rgb(246, 236, 236);
+    outline-offset: -5px;
+    -webkit-box-shadow: inset 0 0 17px 4px rgba(246, 237, 237, 0.75);
+    -moz-box-shadow: inset 0 0 17px 4px rgba(246, 242, 242, 0.75);
+    box-shadow: inset 0 0 17px 4px rgba(236, 223, 223, 0.75);
+    
+}

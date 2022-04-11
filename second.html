@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title>PODINARIO GAME SLOT</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="SLOT MACHINE">
+    <meta name="keywords" content="slot, podinario, sokobanja">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/canvas.css">
+    <link rel="stylesheet" href="styles/controls.css">
+   
+</head>
+<!-- when browser load page -->
+<body onload="game.initialize();">
+
+
+<div style="display: none">
+    <img id="icons" src="images/icons.png">
+</div>
+<div class="container" id="mainContainer">
+    <div id="header">
+        <span id="logo">PODINARIO CASINO</span>
+    </div>
+
+    <div id="screenContainer" class="containerBigger">
+        <canvas id="canvasContainer" width="1000" height="450" class="gradientBackground">
+           
+        </canvas>
+        <canvas id="creditBoard" width="1000" height="70" class="gradientCreditBackground">
+           
+        </canvas>
+        <canvas id="controlBoard" width="1000" height="20" style="background-color: rgb(52, 48, 48)">
+           
+        </canvas>
+
+    </div>
+
+
+    <div id="footer">
+        <div class="buttonPanel">
+            <button class="button" id="betMinus" onClick="game.changeBet(-50)">BET-</button>
+            <button class="button" id="betPlus" onClick="game.changeBet(50)">BET+</button>
+            <button class="button" id="lotteryButton" onClick="game.startSpinning()">SPIN</button>
+        </div>
+    </div>
+
+</div>
+
+<script  src="scripts/Game.js"></script>
+<script  src="scripts/StaticContentCreator.js"></script>
+<script  src="scripts/Sound.js"></script>
+<script  src="scripts/SoundManager.js"></script>
+<script  src="scripts/config.js"></script>
+<script  src="scripts/SlotItem.js"></script>
+<script  src="scripts/SlotItems.js"></script>
+<script  src="scripts/SlotInitializer.js"></script>
+<script  src="scripts/PrizeGenerator.js"></script>
+<script  src="scripts/Credits.js"></script>
+<script  src="scripts/init.js"></script>
+<script>
+    let game = new Game(5);
+</script>
+</body>
+</html>

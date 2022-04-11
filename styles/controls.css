@@ -1,0 +1,28 @@
+.buttonPanel{
+    position: relative;
+    top: -80px;
+    text-align: center;
+}
+.button {
+    display: inline-block;
+    padding: 10px 18px;
+    font-size: 19px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(200,0,0);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 9px rgb(44,44,44);
+    
+}
+
+.button:hover {background-color:  rgb(170,0,0)}
+
+.button:active {
+    background-color:  rgb(160,0,0);
+    box-shadow: 0 5px rgb(22,22,22);
+    transform: translateY(20px);
+}
